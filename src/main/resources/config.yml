@@ -1,0 +1,24 @@
+# ========================================================
+#                    N E X U S M U T E
+#                Developed by: mustafa8907
+#              Part of the NexusSetups Brand
+# ========================================================
+
+# Should the mute system be enabled?
+allow-mute: true
+
+# Sound played to the muted player when they try to type in chat.
+# Note: ENTITY_VILLAGER_NO works across most versions.
+Mute-Sound: ENTITY_VILLAGER_NO
+
+# Where should the muted player receive the notification?
+# Options: chat, action_bar, both
+Mute-Notification: chat
+
+# Should players be prevented from placing signs if muted?
+Allow-SIGN-Mute: false
+
+# Database settings
+# Currently optimized for SQLITE to keep the server lag-free.
+database:
+  type: SQLITE
