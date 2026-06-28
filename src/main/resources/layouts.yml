@@ -1,0 +1,19 @@
+# ========================================================
+#               M U T E   L A Y O U T S
+# Usage: /mute <player> <layout_name>
+# Example: /mute Steve spam
+# ========================================================
+
+layouts:
+  spam:
+    duration: "10m"
+    reason: "Spamming the chat or flooding messages."
+  swear:
+    duration: "1h"
+    reason: "Using inappropriate language or swearing."
+  ad:
+    duration: "30d"
+    reason: "Advertising other servers or platforms."
+  toxic:
+    duration: "3h"
+    reason: "Toxic behavior towards other players."
