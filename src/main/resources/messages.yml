@@ -1,0 +1,25 @@
+# ========================================================
+#             M E S S A G E   S E T T I N G S
+# MiniMessage format is FULLY supported!
+# Use <gradient:#hex1:#hex2>Text</gradient>, <red>, <bold> etc.
+# ========================================================
+
+prefix: "<gradient:#FF5555:#FFAA00><bold>[NexusMute]</bold></gradient> <dark_gray>»</dark_gray> "
+
+# General Errors
+no-permission: "<red>You do not have permission to execute this command.</red>"
+player-not-found: "<red>Player <gold><player></gold> is not online or has never joined the server.</red>"
+invalid-time-format: "<red>Invalid time format! Use something like <yellow>1h, 30m, 1d</yellow>.</red>"
+
+# Broadcasts (Sent to everyone or admins)
+mute-broadcast: "<red><player></red> <gray>has been permanently muted by</gray> <gold><operator></gold><gray>.</gray> <newline><gray>Reason:</gray> <yellow><reason></yellow>"
+tempmute-broadcast: "<red><player></red> <gray>has been temporarily muted by</gray> <gold><operator></gold> <gray>for</gray> <green><duration></green><gray>.</gray> <newline><gray>Reason:</gray> <yellow><reason></yellow>"
+unmute-broadcast: "<green><player></green> <gray>has been unmuted by</gray> <gold><operator></gold><gray>.</gray>"
+
+# Chat Block Messages (Sent to the muted player when they try to speak)
+chat-blocked-chat: "<red>You cannot send messages!</red> <gray>Your mute expires in:</gray> <gold><time_left></gold> <newline><gray>Reason:</gray> <yellow><reason></yellow>"
+chat-blocked-actionbar: "<red><bold>MUTED!</bold></red> <gray>Time remaining:</gray> <gold><time_left></gold>"
+
+# Admin Commands
+reload-success: "<green>NexusMute configuration files successfully reloaded!</green>"
+unmute-all-success: "<green>All active mutes have been cleared successfully!</green>"
