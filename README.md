@@ -1,2 +1,2 @@
 # NexusMute
-Advanced Mute System and Fukl Customizable
+Advanced Mute System and Full Customizable
